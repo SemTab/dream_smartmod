@@ -1,0 +1,657 @@
+[22:51:43] [WARNING] mysql_connect: no password specified
+[23:18:13] [WARNING] mysql_connect: no password specified
+[23:19:19] [WARNING] mysql_connect: no password specified
+[16:08:26] [WARNING] mysql_connect: no password specified
+[16:08:49] [WARNING] mysql_connect: no password specified
+[16:36:51] [WARNING] mysql_connect: no password specified
+[16:38:31] [WARNING] mysql_connect: no password specified
+[16:44:43] [WARNING] mysql_connect: no password specified
+[20:08:41] [WARNING] mysql_connect: no password specified
+[12:52:49] [WARNING] mysql_connect: no password specified
+[13:53:05] [WARNING] mysql_connect: no password specified
+[13:53:37] [WARNING] mysql_connect: no password specified
+[12:46:37] [WARNING] mysql_connect: no password specified
+[12:46:39] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[12:46:40] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[12:46:41] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[12:46:42] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[12:47:18] [WARNING] mysql_connect: no password specified
+[12:47:46] [WARNING] mysql_connect: no password specified
+[12:49:29] [WARNING] mysql_connect: no password specified
+[12:50:33] [WARNING] mysql_connect: no password specified
+[15:34:35] [WARNING] mysql_connect: no password specified
+[21:02:56] [WARNING] mysql_connect: no password specified
+[21:06:29] [WARNING] mysql_connect: no password specified
+[21:16:06] [WARNING] mysql_connect: no password specified
+[21:22:54] [WARNING] mysql_connect: no password specified
+[22:11:31] [WARNING] mysql_connect: no password specified
+[23:17:36] [WARNING] mysql_connect: no password specified
+[23:17:36] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'luxerp'
+[23:20:26] [WARNING] mysql_connect: no password specified
+[23:20:26] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'luxerp'
+[23:20:37] [ERROR] error #1054 while executing query "INSERT INTO `accounts`(`name`, `password`, `email`, `age`, `sex`, `skin`, `regdata`, `regip`) VALUES ('Juriy_Markov', '123123', 'asdasdasd@mail.ru', '20', '1', '19', '', '')": Unknown column 'regdata' in 'field list'
+[23:22:53] [WARNING] mysql_connect: no password specified
+[23:25:59] [WARNING] mysql_connect: no password specified
+[23:29:19] [WARNING] mysql_connect: no password specified
+[23:32:58] [WARNING] mysql_connect: no password specified
+[23:32:58] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'luxerp'
+[16:53:29] [WARNING] mysql_connect: no password specified
+[16:58:47] [WARNING] mysql_connect: no password specified
+[16:58:47] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'luxerp'
+[17:04:04] [WARNING] mysql_connect: no password specified
+[17:12:41] [WARNING] mysql_connect: no password specified
+[17:57:00] [WARNING] mysql_connect: no password specified
+[18:01:09] [WARNING] mysql_connect: no password specified
+[18:01:09] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'luxerp'
+[20:09:45] [WARNING] mysql_connect: no password specified
+[20:16:56] [WARNING] mysql_connect: no password specified
+[20:19:33] [WARNING] mysql_connect: no password specified
+[20:19:33] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'floridarp'
+[20:20:37] [WARNING] mysql_connect: no password specified
+[20:20:37] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'floridarp'
+[20:22:38] [WARNING] mysql_connect: no password specified
+[20:22:38] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'floridarp'
+[20:24:22] [WARNING] mysql_connect: no password specified
+[20:24:22] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'floridarp'
+[20:27:37] [WARNING] mysql_connect: no password specified
+[20:27:37] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'floridarp'
+[22:38:44] [WARNING] mysql_connect: no password specified
+[22:40:47] [WARNING] mysql_connect: no password specified
+[22:40:47] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'floridarp'
+[22:42:35] [WARNING] mysql_connect: no password specified
+[22:42:35] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'floridarp'
+[22:44:24] [WARNING] mysql_connect: no password specified
+[22:44:24] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'floridarp'
+[22:53:20] [WARNING] mysql_connect: no password specified
+[23:07:57] [WARNING] mysql_connect: no password specified
+[23:10:30] [WARNING] mysql_connect: no password specified
+[23:10:30] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'floridarp'
+[23:16:15] [WARNING] mysql_connect: no password specified
+[23:16:15] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'floridarp'
+[23:19:24] [WARNING] mysql_connect: no password specified
+[23:19:24] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'floridarp'
+[23:29:11] [WARNING] mysql_connect: no password specified
+[23:29:11] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'floridarp'
+[17:46:11] [WARNING] mysql_connect: no password specified
+[17:49:35] [WARNING] mysql_connect: no password specified
+[17:49:35] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'floridarp'
+[17:58:36] [WARNING] mysql_connect: no password specified
+[17:58:36] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'floridarp'
+[18:01:16] [WARNING] mysql_connect: no password specified
+[18:01:16] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'floridarp'
+[18:10:17] [WARNING] mysql_connect: no password specified
+[18:10:17] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'floridarp'
+[18:19:19] [WARNING] mysql_connect: no password specified
+[18:19:19] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'floridarp'
+[18:20:38] [ERROR] mysql_format: destination size '70' is too small
+[18:20:38] [ERROR] error #1065 while executing query "": Query was empty
+[18:20:50] [WARNING] mysql_connect: no password specified
+[18:20:50] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'floridarp'
+[18:21:05] [ERROR] mysql_format: destination size '70' is too small
+[18:21:05] [ERROR] error #1065 while executing query "": Query was empty
+[18:22:15] [ERROR] mysql_format: destination size '70' is too small
+[18:22:15] [ERROR] error #1065 while executing query "": Query was empty
+[18:22:27] [WARNING] mysql_connect: no password specified
+[18:22:27] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'floridarp'
+[18:22:56] [ERROR] mysql_format: destination size '70' is too small
+[18:22:56] [ERROR] error #1065 while executing query "": Query was empty
+[18:23:36] [WARNING] mysql_connect: no password specified
+[18:23:36] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'floridarp'
+[18:24:30] [ERROR] mysql_format: destination size '70' is too small
+[18:24:30] [ERROR] error #1065 while executing query "": Query was empty
+[18:27:54] [WARNING] mysql_connect: no password specified
+[18:27:54] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'floridarp'
+[18:28:59] [WARNING] mysql_connect: no password specified
+[18:28:59] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'floridarp'
+[20:28:22] [WARNING] mysql_connect: no password specified
+[20:28:26] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[20:28:31] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[20:28:35] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[20:28:39] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[22:09:48] [WARNING] mysql_connect: no password specified (D:\AmazingLibrary\Florida RolePlay\gamemodes\/sources/stock.inc:4 -> D:\AmazingLibrary\Florida RolePlay\gamemodes\new.pwn:19 -> D:\AmazingLibrary\Florida RolePlay\pawno\include\Pawn.CMD.inc:125 -> D:\AmazingLibrary\Florida RolePlay\pawno\include\sscanf2.inc:210)
+[22:26:17] [WARNING] mysql_connect: no password specified (D:\AmazingLibrary\Florida RolePlay\gamemodes\/sources/stock.inc:4 -> D:\AmazingLibrary\Florida RolePlay\gamemodes\new.pwn:19 -> C:\pawno\include\Pawn.CMD.inc:125 -> C:\pawno\include\sscanf2.inc:210)
+[16:28:39] [WARNING] mysql_connect: no password specified (D:\AmazingLibrary\Amazing SAMP\gamemodes\/sources/stock.inc:4 -> D:\AmazingLibrary\Amazing SAMP\gamemodes\new.pwn:19 -> C:\pawno\include\Pawn.CMD.inc:125 -> C:\pawno\include\sscanf2.inc:210)
+[16:36:33] [WARNING] mysql_connect: no password specified
+[16:36:33] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[16:39:45] [WARNING] mysql_connect: no password specified
+[16:39:45] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[16:41:50] [WARNING] mysql_connect: no password specified
+[16:41:50] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[22:56:28] [WARNING] mysql_connect: no password specified (D:\AmazingLibrary\Amazing SAMP\gamemodes\/sources/stock.inc:4 -> D:\AmazingLibrary\Amazing SAMP\gamemodes\new.pwn:19 -> C:\pawno\include\Pawn.CMD.inc:125 -> C:\pawno\include\sscanf2.inc:210)
+[22:59:49] [WARNING] mysql_connect: no password specified
+[22:59:49] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[23:00:44] [WARNING] mysql_connect: no password specified
+[23:00:44] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[23:01:36] [WARNING] mysql_connect: no password specified
+[23:01:36] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[23:22:47] [WARNING] mysql_connect: no password specified
+[23:22:47] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[23:26:04] [WARNING] mysql_connect: no password specified
+[23:26:04] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[23:31:06] [WARNING] mysql_connect: no password specified
+[23:31:06] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[23:33:15] [WARNING] mysql_connect: no password specified
+[23:33:15] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[23:35:39] [WARNING] mysql_connect: no password specified
+[23:35:39] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[23:37:30] [WARNING] mysql_connect: no password specified
+[23:37:30] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[23:48:59] [WARNING] mysql_connect: no password specified
+[23:48:59] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[23:53:10] [WARNING] mysql_connect: no password specified
+[23:53:10] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[23:59:53] [WARNING] mysql_connect: no password specified
+[23:59:53] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[00:02:02] [WARNING] mysql_connect: no password specified
+[00:02:02] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[00:10:30] [WARNING] mysql_connect: no password specified
+[00:10:30] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[00:12:52] [WARNING] mysql_connect: no password specified (D:\AmazingLibrary\Amazing SAMP\gamemodes\/sources/stock.inc:4 -> D:\AmazingLibrary\Amazing SAMP\gamemodes\new.pwn:19 -> C:\pawno\include\Pawn.CMD.inc:125 -> C:\pawno\include\sscanf2.inc:210)
+[00:14:21] [WARNING] mysql_connect: no password specified
+[00:14:21] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[00:16:46] [WARNING] mysql_connect: no password specified (D:\AmazingLibrary\Amazing SAMP\gamemodes\/sources/stock.inc:4 -> D:\AmazingLibrary\Amazing SAMP\gamemodes\new.pwn:19 -> C:\pawno\include\Pawn.CMD.inc:125 -> C:\pawno\include\sscanf2.inc:210)
+[12:19:47] [WARNING] mysql_connect: no password specified (D:\AmazingLibrary\Fuso RolePlay\gamemodes\/sources/stock.inc:4 -> D:\AmazingLibrary\Fuso RolePlay\gamemodes\new.pwn:19 -> C:\pawno\include\Pawn.CMD.inc:125 -> C:\pawno\include\sscanf2.inc:210)
+[12:43:35] [WARNING] mysql_connect: no password specified
+[12:43:35] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[12:51:52] [WARNING] mysql_connect: no password specified
+[12:51:52] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[12:56:55] [WARNING] mysql_connect: no password specified
+[12:56:55] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[12:57:45] [WARNING] mysql_connect: no password specified
+[12:57:45] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[13:01:56] [WARNING] mysql_connect: no password specified
+[13:01:56] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[13:04:34] [WARNING] mysql_connect: no password specified
+[13:04:34] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[13:09:37] [WARNING] mysql_connect: no password specified
+[13:09:37] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[13:11:42] [WARNING] mysql_connect: no password specified
+[13:11:42] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[13:12:50] [WARNING] mysql_connect: no password specified
+[13:12:50] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[13:16:37] [WARNING] mysql_connect: no password specified
+[13:16:37] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[13:19:19] [WARNING] mysql_connect: no password specified
+[13:19:19] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[13:24:46] [WARNING] mysql_connect: no password specified
+[13:24:46] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[13:29:28] [WARNING] mysql_connect: no password specified
+[13:29:28] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[13:33:56] [WARNING] mysql_connect: no password specified
+[13:33:56] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[13:35:21] [WARNING] mysql_connect: no password specified
+[13:35:21] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[16:07:36] [WARNING] mysql_connect: no password specified (D:\AmazingLibrary\Fuso RolePlay\gamemodes\/sources/stock.inc:4 -> D:\AmazingLibrary\Fuso RolePlay\gamemodes\new.pwn:19 -> C:\pawno\include\Pawn.CMD.inc:125 -> C:\pawno\include\sscanf2.inc:210)
+[16:13:05] [WARNING] mysql_connect: no password specified (D:\AmazingLibrary\Fuso RolePlay\gamemodes\/sources/stock.inc:4 -> D:\AmazingLibrary\Fuso RolePlay\gamemodes\new.pwn:19 -> C:\pawno\include\Pawn.CMD.inc:125 -> C:\pawno\include\sscanf2.inc:210)
+[16:15:44] [WARNING] mysql_connect: no password specified (D:\AmazingLibrary\Fuso RolePlay\gamemodes\/sources/stock.inc:4 -> D:\AmazingLibrary\Fuso RolePlay\gamemodes\new.pwn:19 -> C:\pawno\include\Pawn.CMD.inc:125 -> C:\pawno\include\sscanf2.inc:210)
+[16:15:44] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[16:27:32] [WARNING] mysql_connect: no password specified
+[16:27:32] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[16:36:22] [WARNING] mysql_connect: no password specified
+[16:36:22] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[16:48:27] [WARNING] mysql_connect: no password specified
+[16:48:27] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[16:51:38] [WARNING] mysql_connect: no password specified
+[16:51:38] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[16:55:17] [WARNING] mysql_connect: no password specified
+[16:55:17] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[16:57:17] [WARNING] mysql_connect: no password specified
+[16:57:17] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[16:58:42] [WARNING] mysql_connect: no password specified
+[16:58:42] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[17:03:39] [WARNING] mysql_connect: no password specified
+[17:03:39] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[17:04:32] [WARNING] mysql_connect: no password specified
+[17:04:32] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[17:05:49] [WARNING] mysql_connect: no password specified
+[17:05:49] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[17:09:08] [WARNING] mysql_connect: no password specified
+[17:09:08] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[17:09:44] [WARNING] mysql_connect: no password specified
+[17:09:44] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[23:15:34] [WARNING] mysql_connect: no password specified (D:\AmazingLibrary\Project X\gamemodes\/sources/stock.inc:4 -> D:\AmazingLibrary\Project X\gamemodes\new.pwn:19 -> C:\pawno\include\Pawn.CMD.inc:125 -> C:\pawno\include\sscanf2.inc:210)
+[23:24:19] [WARNING] mysql_connect: no password specified
+[23:24:19] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[23:39:20] [WARNING] mysql_connect: no password specified (D:\AmazingLibrary\Project X\gamemodes\/sources/stock.inc:4 -> D:\AmazingLibrary\Project X\gamemodes\new.pwn:19 -> C:\pawno\include\Pawn.CMD.inc:125 -> C:\pawno\include\sscanf2.inc:210)
+[23:41:47] [WARNING] mysql_connect: no password specified
+[23:41:47] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[23:42:26] [ERROR] error #1054 while executing query "INSERT INTO `accounts`(`name`, `password`, `email`, `referal`, `age`, `sex`, `skin`, `regdata`, `regip`) VALUES ('Juriy_Markov', '123123', 'qwerty@mail.ru', '1', '20', '1', '22', '14.11.2021 23:42:26', '127.0.0.1')": Unknown column 'referal' in 'field list'
+[23:49:11] [WARNING] mysql_connect: no password specified
+[23:49:11] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[23:49:26] [ERROR] error #1064 while executing query "INSERT INTO `accounts`(`name`, `password`, `email`, `age`, `sex`, `skin`, `regdata`, `regip`) VALUES ('Juriy_Markov', '12345qwerty', 'uegodurov@gmail.com', 20', '1', '28', '14.11.2021 23:49:26', '127.0.0.1')": You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '', '1', '28', '14.11.2021 23:49:26', '127.0.0.1')' at line 1
+[23:51:07] [WARNING] mysql_connect: no password specified (D:\AmazingLibrary\Project X\gamemodes\/sources/stock.inc:4 -> D:\AmazingLibrary\Project X\gamemodes\new.pwn:19 -> C:\pawno\include\Pawn.CMD.inc:125 -> C:\pawno\include\sscanf2.inc:210)
+[23:51:38] [ERROR] error #1064 while executing query "INSERT INTO `accounts`(`name`, `password`, `email`, `age`, `sex`, `skin`, `regdata`, `regip`) VALUES ('Juriy_Markov', '123123', 'uegodurov@gmail.com', 25', '1', '28', '14.11.2021 23:51:38', '127.0.0.1')": You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '', '1', '28', '14.11.2021 23:51:38', '127.0.0.1')' at line 1 (D:\AmazingLibrary\Project X\gamemodes\new.pwn:347)
+[23:57:17] [WARNING] mysql_connect: no password specified
+[23:57:17] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[23:57:55] [ERROR] error #1064 while executing query "INSERT INTO `accounts`(`name`, `password`, `email`, `age`, `sex`, `skin`, `regdata`, `regip`) VALUES ('Juriy_Markov', '12345qwerty', 'uegodurov@gmail.com', 20', '1', '19', '14.11.2021 23:57:55', '127.0.0.1')": You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '', '1', '19', '14.11.2021 23:57:55', '127.0.0.1')' at line 1
+[00:02:28] [WARNING] mysql_connect: no password specified
+[00:02:28] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[00:04:00] [WARNING] mysql_connect: no password specified
+[00:04:00] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[12:47:35] [WARNING] mysql_connect: no password specified (D:\AmazingLibrary\States RolePlay\gamemodes\new.pwn:629 -> D:\AmazingLibrary\States RolePlay\gamemodes\new.pwn:101 -> C:\pawno\include\Pawn.CMD.inc:125 -> C:\pawno\include\sscanf2.inc:210)
+[12:47:39] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[12:47:53] [WARNING] mysql_connect: no password specified (D:\AmazingLibrary\States RolePlay\gamemodes\new.pwn:629 -> D:\AmazingLibrary\States RolePlay\gamemodes\new.pwn:101 -> C:\pawno\include\Pawn.CMD.inc:125 -> C:\pawno\include\sscanf2.inc:210)
+[12:52:59] [WARNING] mysql_connect: no password specified
+[12:52:59] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[12:56:09] [WARNING] mysql_connect: no password specified
+[12:56:09] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[13:11:21] [WARNING] mysql_connect: no password specified
+[13:11:21] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[13:14:03] [WARNING] mysql_connect: no password specified
+[13:14:03] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[13:17:03] [WARNING] mysql_connect: no password specified
+[13:17:03] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[13:27:42] [WARNING] mysql_connect: no password specified
+[13:27:42] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[13:28:33] [WARNING] mysql_connect: no password specified
+[13:28:33] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[13:34:06] [WARNING] mysql_connect: no password specified
+[13:34:06] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[13:38:18] [WARNING] mysql_connect: no password specified
+[13:38:18] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[22:31:59] [WARNING] mysql_connect: no password specified (D:\AmazingLibrary\States RolePlay\gamemodes\new.pwn:573 -> D:\AmazingLibrary\States RolePlay\gamemodes\new.pwn:100 -> C:\pawno\include\Pawn.CMD.inc:125 -> C:\pawno\include\sscanf2.inc:210)
+[22:56:03] [WARNING] mysql_connect: no password specified
+[22:56:03] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[22:59:56] [WARNING] mysql_connect: no password specified
+[22:59:56] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[23:12:46] [WARNING] mysql_connect: no password specified
+[23:12:46] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[23:15:36] [WARNING] mysql_connect: no password specified
+[23:15:36] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[23:20:34] [WARNING] mysql_connect: no password specified
+[23:20:34] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[23:21:25] [WARNING] mysql_connect: no password specified
+[23:21:25] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[23:34:08] [WARNING] mysql_connect: no password specified
+[23:34:08] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[23:35:27] [WARNING] mysql_connect: no password specified
+[23:35:27] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[23:42:26] [WARNING] mysql_connect: no password specified
+[23:42:26] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[23:51:28] [WARNING] mysql_connect: no password specified
+[23:51:28] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[00:23:43] [WARNING] mysql_connect: no password specified
+[00:23:43] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[00:28:39] [WARNING] mysql_connect: no password specified
+[00:28:39] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[00:34:41] [WARNING] mysql_connect: no password specified
+[00:34:41] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[00:41:35] [WARNING] mysql_connect: no password specified
+[00:41:35] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[00:43:04] [WARNING] mysql_connect: no password specified
+[00:43:04] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[00:45:15] [WARNING] mysql_connect: no password specified
+[00:45:15] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[00:47:05] [WARNING] mysql_connect: no password specified
+[00:47:05] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[00:49:59] [WARNING] mysql_connect: no password specified
+[00:49:59] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[00:51:49] [WARNING] mysql_connect: no password specified
+[00:51:49] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[00:57:24] [WARNING] mysql_connect: no password specified
+[00:57:24] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[11:09:48] [WARNING] mysql_connect: no password specified (D:\AmazingLibrary\States RolePlay\gamemodes\new.pwn:634 -> D:\AmazingLibrary\States RolePlay\gamemodes\new.pwn:105 -> C:\pawno\include\Pawn.CMD.inc:125 -> C:\pawno\include\sscanf2.inc:210)
+[11:17:32] [WARNING] mysql_connect: no password specified
+[11:17:32] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[11:24:09] [WARNING] mysql_connect: no password specified
+[11:24:09] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[11:29:15] [WARNING] mysql_connect: no password specified
+[11:29:15] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[11:40:55] [WARNING] mysql_connect: no password specified
+[11:40:55] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[18:02:54] [WARNING] mysql_connect: no password specified (D:\AmazingLibrary\States RolePlay\gamemodes\new.pwn:644 -> D:\AmazingLibrary\States RolePlay\gamemodes\new.pwn:107 -> C:\pawno\include\Pawn.CMD.inc:125 -> C:\pawno\include\sscanf2.inc:210)
+[18:03:55] [WARNING] mysql_connect: no password specified (D:\AmazingLibrary\States RolePlay\gamemodes\new.pwn:644 -> D:\AmazingLibrary\States RolePlay\gamemodes\new.pwn:107 -> C:\pawno\include\Pawn.CMD.inc:125 -> C:\pawno\include\sscanf2.inc:210)
+[18:05:01] [WARNING] mysql_connect: no password specified (D:\AmazingLibrary\States RolePlay\gamemodes\new.pwn:644 -> D:\AmazingLibrary\States RolePlay\gamemodes\new.pwn:107 -> C:\pawno\include\Pawn.CMD.inc:125 -> C:\pawno\include\sscanf2.inc:210)
+[22:35:06] [WARNING] mysql_connect: no password specified (D:\AmazingLibrary\States RolePlay\gamemodes\new.pwn:644 -> D:\AmazingLibrary\States RolePlay\gamemodes\new.pwn:107 -> C:\pawno\include\Pawn.CMD.inc:125 -> C:\pawno\include\sscanf2.inc:210)
+[23:03:22] [WARNING] mysql_connect: no password specified
+[23:03:22] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[23:07:02] [WARNING] mysql_connect: no password specified
+[23:07:02] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[23:10:19] [WARNING] mysql_connect: no password specified
+[23:10:19] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[23:13:24] [WARNING] mysql_connect: no password specified
+[23:13:24] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[23:17:23] [WARNING] mysql_connect: no password specified
+[23:17:23] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[00:05:48] [WARNING] mysql_connect: no password specified
+[00:05:48] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[00:15:55] [WARNING] mysql_connect: no password specified
+[00:15:55] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[00:20:44] [WARNING] mysql_connect: no password specified
+[00:20:44] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[00:22:40] [WARNING] mysql_connect: no password specified
+[00:22:40] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[00:29:16] [WARNING] mysql_connect: no password specified
+[00:29:16] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[00:30:11] [WARNING] mysql_connect: no password specified
+[00:30:11] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[00:31:00] [WARNING] mysql_connect: no password specified
+[00:31:00] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[00:33:40] [WARNING] mysql_connect: no password specified
+[00:33:40] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[00:39:02] [WARNING] mysql_connect: no password specified
+[00:39:02] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[00:40:42] [WARNING] mysql_connect: no password specified
+[00:40:42] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[13:11:38] [WARNING] mysql_connect: no password specified (D:\AmazingLibrary\States RolePlay\gamemodes\new.pwn:646 -> D:\AmazingLibrary\States RolePlay\gamemodes\new.pwn:109 -> C:\pawno\include\Pawn.CMD.inc:125 -> C:\pawno\include\sscanf2.inc:210)
+[13:11:42] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[13:15:41] [WARNING] mysql_connect: no password specified
+[13:15:41] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[13:28:08] [WARNING] mysql_connect: no password specified (D:\AmazingLibrary\States RolePlay\gamemodes\new.pwn:648 -> D:\AmazingLibrary\States RolePlay\gamemodes\new.pwn:109 -> C:\pawno\include\Pawn.CMD.inc:125 -> C:\pawno\include\sscanf2.inc:210)
+[13:42:56] [WARNING] mysql_connect: no password specified
+[13:42:56] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[13:44:14] [WARNING] mysql_connect: no password specified
+[13:44:14] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[13:46:39] [WARNING] mysql_connect: no password specified
+[13:46:39] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[13:50:12] [WARNING] mysql_connect: no password specified
+[13:50:12] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[21:56:02] [WARNING] mysql_connect: no password specified (D:\AmazingLibrary\America RolePlay\gamemodes\new.pwn:652 -> D:\AmazingLibrary\America RolePlay\gamemodes\new.pwn:108 -> C:\pawno\include\Pawn.CMD.inc:125 -> C:\pawno\include\sscanf2.inc:210)
+[21:57:26] [WARNING] mysql_connect: no password specified
+[21:57:26] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[21:59:37] [WARNING] mysql_connect: no password specified (D:\AmazingLibrary\America RolePlay\gamemodes\new.pwn:652 -> D:\AmazingLibrary\America RolePlay\gamemodes\new.pwn:108 -> C:\pawno\include\Pawn.CMD.inc:125 -> C:\pawno\include\sscanf2.inc:210)
+[21:59:37] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[22:01:56] [WARNING] mysql_connect: no password specified
+[22:01:56] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[22:05:18] [WARNING] mysql_connect: no password specified
+[22:05:18] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[22:06:44] [WARNING] mysql_connect: no password specified
+[22:06:44] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[22:07:48] [WARNING] mysql_connect: no password specified
+[22:07:48] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[22:18:38] [WARNING] mysql_connect: no password specified
+[22:18:38] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[22:39:08] [WARNING] mysql_connect: no password specified
+[22:39:08] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[22:56:59] [WARNING] mysql_connect: no password specified
+[22:56:59] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[23:09:25] [WARNING] mysql_connect: no password specified
+[23:09:25] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[23:10:23] [WARNING] mysql_connect: no password specified
+[23:10:23] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[23:11:24] [WARNING] mysql_connect: no password specified
+[23:11:24] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[23:31:36] [WARNING] mysql_connect: no password specified
+[23:31:36] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[23:32:01] [ERROR] error #1054 while executing query "SELECT * FROM `accounts` WHERE `fractions` = '1'": Unknown column 'fractions' in 'where clause'
+[23:32:05] [ERROR] error #1054 while executing query "SELECT * FROM `accounts` WHERE `fractions` = '1'": Unknown column 'fractions' in 'where clause'
+[23:44:29] [WARNING] mysql_connect: no password specified
+[23:44:29] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[23:45:47] [WARNING] mysql_connect: no password specified
+[23:45:47] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[23:49:51] [WARNING] mysql_connect: no password specified
+[23:49:51] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[23:52:14] [WARNING] mysql_connect: no password specified
+[23:52:14] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[10:08:32] [WARNING] mysql_connect: no password specified (D:\AmazingLibrary\America RolePlay\gamemodes\new.pwn:697 -> D:\AmazingLibrary\America RolePlay\gamemodes\new.pwn:113 -> C:\pawno\include\Pawn.CMD.inc:125 -> C:\pawno\include\sscanf2.inc:210)
+[10:12:29] [WARNING] mysql_connect: no password specified
+[10:12:29] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[10:14:31] [WARNING] mysql_connect: no password specified
+[10:14:31] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[10:14:54] [WARNING] mysql_connect: no password specified
+[10:14:54] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[10:19:13] [WARNING] mysql_connect: no password specified
+[10:19:13] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[10:20:13] [WARNING] mysql_connect: no password specified
+[10:20:13] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[10:36:39] [WARNING] mysql_connect: no password specified
+[10:36:39] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[10:39:52] [WARNING] mysql_connect: no password specified
+[10:39:52] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[10:44:16] [WARNING] mysql_connect: no password specified
+[10:44:16] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'samp'
+[00:02:58] [WARNING] mysql_connect: no password specified
+[00:04:54] [WARNING] mysql_connect: no password specified
+[00:04:54] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[14:16:58] [WARNING] mysql_connect: no password specified (C:\Users\Юлия\Desktop\Honey RolePlay\gamemodes\honey.pwn:89 -> C:\Users\Юлия\Desktop\Honey RolePlay\pawno\include\Pawn.CMD.inc:125 -> C:\Users\Юлия\Desktop\Honey RolePlay\pawno\include\sscanf2.inc:210)
+[14:17:00] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1049 'Unknown database 'honey_database''
+[14:17:02] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1049 'Unknown database 'honey_database''
+[14:17:04] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1049 'Unknown database 'honey_database''
+[14:17:06] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1049 'Unknown database 'honey_database''
+[14:19:28] [WARNING] mysql_connect: no password specified (C:\Users\Юлия\Desktop\Honey RolePlay\gamemodes\honey.pwn:89 -> C:\Users\Юлия\Desktop\Honey RolePlay\pawno\include\Pawn.CMD.inc:125 -> C:\Users\Юлия\Desktop\Honey RolePlay\pawno\include\sscanf2.inc:210)
+[15:04:11] [WARNING] mysql_connect: no password specified (C:\Users\Юлия\Desktop\Honey RolePlay\gamemodes\honey.pwn:89 -> C:\Users\Юлия\Desktop\Honey RolePlay\pawno\include\Pawn.CMD.inc:125 -> C:\Users\Юлия\Desktop\Honey RolePlay\pawno\include\sscanf2.inc:210)
+[15:33:16] [WARNING] mysql_connect: no password specified
+[15:33:16] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[15:53:45] [WARNING] mysql_connect: no password specified
+[15:53:45] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[16:00:47] [WARNING] mysql_connect: no password specified
+[16:00:47] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[16:02:02] [WARNING] mysql_connect: no password specified
+[16:02:02] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[16:04:27] [WARNING] mysql_connect: no password specified
+[16:04:27] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[16:05:29] [WARNING] mysql_connect: no password specified
+[16:05:29] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[16:06:52] [WARNING] mysql_connect: no password specified
+[16:06:52] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[16:08:51] [WARNING] mysql_connect: no password specified
+[16:08:51] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[22:00:27] [WARNING] mysql_connect: no password specified (C:\Users\Юлия\Desktop\Honey RolePlay\gamemodes\honey.pwn:93 -> C:\Users\Юлия\Desktop\Honey RolePlay\pawno\include\Pawn.CMD.inc:125 -> C:\Users\Юлия\Desktop\Honey RolePlay\pawno\include\sscanf2.inc:210)
+[00:37:27] [WARNING] mysql_connect: no password specified (D:\AmazingLibrary\Honey RolePlay\gamemodes\honey.pwn:93 -> D:\AmazingLibrary\Honey RolePlay\pawno\include\Pawn.CMD.inc:125 -> D:\AmazingLibrary\Honey RolePlay\pawno\include\sscanf2.inc:210)
+[00:37:31] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[00:37:36] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[00:37:40] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[00:37:44] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[00:39:32] [WARNING] mysql_connect: no password specified (D:\AmazingLibrary\Honey RolePlay\gamemodes\honey.pwn:93 -> D:\AmazingLibrary\Honey RolePlay\pawno\include\Pawn.CMD.inc:125 -> D:\AmazingLibrary\Honey RolePlay\pawno\include\sscanf2.inc:210)
+[00:39:32] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[00:40:21] [WARNING] mysql_connect: no password specified (D:\AmazingLibrary\Honey RolePlay\gamemodes\honey.pwn:93 -> D:\AmazingLibrary\Honey RolePlay\pawno\include\Pawn.CMD.inc:125 -> D:\AmazingLibrary\Honey RolePlay\pawno\include\sscanf2.inc:210)
+[00:42:51] [WARNING] mysql_connect: no password specified
+[00:42:51] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[00:46:08] [WARNING] mysql_connect: no password specified
+[00:46:08] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[00:50:03] [WARNING] mysql_connect: no password specified
+[00:50:03] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[00:50:24] [WARNING] mysql_connect: no password specified
+[00:50:24] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[01:01:15] [WARNING] mysql_connect: no password specified
+[01:01:15] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[01:02:04] [WARNING] mysql_connect: no password specified
+[01:02:04] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[01:02:35] [WARNING] mysql_connect: no password specified
+[01:02:35] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[01:04:07] [WARNING] mysql_connect: no password specified
+[01:04:07] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[01:04:53] [WARNING] mysql_connect: no password specified
+[01:04:53] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[01:08:09] [WARNING] mysql_connect: no password specified
+[01:08:09] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[01:10:29] [WARNING] mysql_connect: no password specified
+[01:10:29] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[01:15:06] [WARNING] mysql_connect: no password specified
+[01:15:06] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[01:17:17] [WARNING] mysql_connect: no password specified
+[01:17:17] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[01:18:58] [WARNING] mysql_connect: no password specified
+[01:18:58] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[01:26:22] [WARNING] mysql_connect: no password specified
+[01:26:22] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[01:26:51] [WARNING] mysql_connect: no password specified
+[01:26:51] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[01:30:51] [WARNING] mysql_connect: no password specified
+[01:30:51] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[01:36:17] [WARNING] mysql_connect: no password specified
+[01:36:17] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[23:58:31] [WARNING] mysql_connect: no password specified (D:\AmazingLibrary\Honey RolePlay\gamemodes\honey.pwn:115 -> D:\AmazingLibrary\Honey RolePlay\pawno\include\Pawn.CMD.inc:125 -> D:\AmazingLibrary\Honey RolePlay\pawno\include\sscanf2.inc:210)
+[00:04:44] [WARNING] mysql_connect: no password specified
+[00:04:44] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[00:05:07] [WARNING] mysql_connect: no password specified
+[00:05:07] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[13:07:21] [WARNING] mysql_connect: no password specified (D:\AmazingLibrary\Honey RolePlay\gamemodes\honey.pwn:99 -> D:\AmazingLibrary\Honey RolePlay\pawno\include\Pawn.CMD.inc:125 -> D:\AmazingLibrary\Honey RolePlay\pawno\include\sscanf2.inc:210)
+[13:12:12] [WARNING] mysql_connect: no password specified
+[13:12:12] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[13:13:44] [WARNING] mysql_connect: no password specified
+[13:13:44] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[13:14:23] [WARNING] mysql_connect: no password specified
+[13:14:23] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[13:16:42] [WARNING] mysql_connect: no password specified
+[13:16:42] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[22:31:43] [WARNING] mysql_connect: no password specified
+[22:45:08] [WARNING] mysql_connect: no password specified
+[22:45:08] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[22:48:48] [WARNING] mysql_connect: no password specified
+[22:48:48] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[22:51:21] [WARNING] mysql_connect: no password specified
+[22:51:21] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[22:52:12] [WARNING] mysql_connect: no password specified
+[22:52:12] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[22:54:45] [WARNING] mysql_connect: no password specified
+[22:54:45] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[22:57:01] [WARNING] mysql_connect: no password specified
+[22:57:01] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[23:03:51] [WARNING] mysql_connect: no password specified
+[23:03:51] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[23:05:00] [WARNING] mysql_connect: no password specified
+[23:05:00] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[23:05:50] [WARNING] mysql_connect: no password specified
+[23:05:50] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[23:07:26] [WARNING] mysql_connect: no password specified
+[23:07:26] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[23:39:56] [WARNING] mysql_connect: no password specified
+[23:39:56] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[23:43:08] [WARNING] mysql_connect: no password specified
+[23:43:08] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[23:44:07] [WARNING] mysql_connect: no password specified
+[23:44:07] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[23:46:27] [WARNING] mysql_connect: no password specified
+[23:46:27] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[23:53:49] [WARNING] mysql_connect: no password specified
+[23:53:49] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[23:57:05] [WARNING] mysql_connect: no password specified
+[23:57:05] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[23:58:15] [WARNING] mysql_connect: no password specified
+[23:58:15] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[23:59:51] [WARNING] mysql_connect: no password specified
+[23:59:51] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[01:18:44] [WARNING] mysql_connect: no password specified (D:\AmazingLibrary\Honey RolePlay\gamemodes\honey.pwn:98 -> C:\pawno\include\Pawn.CMD.inc:125 -> C:\pawno\include\sscanf2.inc:117)
+[01:41:02] [WARNING] mysql_connect: no password specified
+[01:41:02] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[01:44:04] [WARNING] mysql_connect: no password specified
+[01:44:04] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[01:47:23] [WARNING] mysql_connect: no password specified
+[01:47:23] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[01:47:23] [ERROR] cache_get_value_name_int: field 'pincode' not found
+[01:47:23] [ERROR] cache_get_value_name_int: field 'check_pincode' not found
+[01:48:27] [ERROR] error #1064 while executing query "UPDATE `accounts` SET `pincode` = '6666', `check_pincode` WHERE `id` = '1'": You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id` = '1'' at line 1
+[01:56:22] [WARNING] mysql_connect: no password specified
+[01:56:22] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[01:56:22] [ERROR] cache_get_value_name_int: field 'pincode' not found
+[01:56:22] [ERROR] cache_get_value_name_int: field 'check_pincode' not found
+[01:56:42] [ERROR] error #1064 while executing query "UPDATE `accounts` SET `pincode` = '6666', `check_pincode` WHERE `id` = '1'": You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id` = '1'' at line 1
+[01:57:51] [WARNING] mysql_connect: no password specified
+[01:57:51] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[01:57:51] [ERROR] cache_get_value_name_int: field 'pincode' not found
+[01:57:51] [ERROR] cache_get_value_name_int: field 'check_pincode' not found
+[01:58:28] [WARNING] mysql_connect: no password specified
+[01:58:28] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[01:58:28] [ERROR] cache_get_value_name_int: field 'pincode' not found
+[01:58:28] [ERROR] cache_get_value_name_int: field 'check_pincode' not found
+[02:02:00] [WARNING] mysql_connect: no password specified
+[02:02:00] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[02:02:00] [ERROR] cache_get_value_name_int: field 'pincode' not found
+[02:02:00] [ERROR] cache_get_value_name_int: field 'check_pincode' not found
+[02:03:44] [WARNING] mysql_connect: no password specified
+[02:03:44] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[02:03:44] [ERROR] cache_get_value_name_int: field 'pincode' not found
+[02:03:44] [ERROR] cache_get_value_name_int: field 'check_pincode' not found
+[02:05:37] [WARNING] mysql_connect: no password specified
+[02:05:37] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[02:06:57] [WARNING] mysql_connect: no password specified
+[02:06:57] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[02:07:45] [WARNING] mysql_connect: no password specified
+[02:07:45] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[02:30:41] [WARNING] mysql_connect: no password specified
+[02:30:41] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[02:32:42] [WARNING] mysql_connect: no password specified
+[02:32:42] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[02:33:20] [WARNING] mysql_connect: no password specified
+[02:33:20] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[02:33:52] [WARNING] mysql_connect: no password specified
+[02:33:52] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[02:34:56] [WARNING] mysql_connect: no password specified
+[02:34:56] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[02:36:29] [WARNING] mysql_connect: no password specified
+[02:36:29] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[02:40:04] [WARNING] mysql_connect: no password specified
+[02:40:04] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[11:37:46] [WARNING] mysql_connect: no password specified (D:\AmazingLibrary\Honey RolePlay\gamemodes\honey.pwn:100 -> C:\pawno\include\Pawn.CMD.inc:125 -> C:\pawno\include\sscanf2.inc:117)
+[11:42:01] [WARNING] mysql_connect: no password specified
+[11:42:01] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[11:43:22] [WARNING] mysql_connect: no password specified
+[11:43:22] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[11:52:24] [WARNING] mysql_connect: no password specified
+[11:52:24] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[23:24:53] [WARNING] mysql_connect: no password specified (D:\AmazingLibrary\Honey RolePlay\gamemodes\honey.pwn:100 -> C:\pawno\include\Pawn.CMD.inc:125 -> C:\pawno\include\sscanf2.inc:117)
+[00:31:21] [WARNING] mysql_connect: no password specified (D:\AmazingLibrary\Honey RolePlay\gamemodes\honey.pwn:100 -> C:\pawno\include\Pawn.CMD.inc:125 -> C:\pawno\include\sscanf2.inc:117)
+[00:32:35] [WARNING] mysql_connect: no password specified
+[00:32:35] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[00:43:00] [WARNING] mysql_connect: no password specified
+[00:43:00] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[00:43:48] [WARNING] mysql_connect: no password specified
+[00:43:48] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[00:55:37] [WARNING] mysql_connect: no password specified
+[00:55:37] [WARNING] duplicate connection detected: handle id 1 already exists with host = 'localhost', username = 'root' and database = 'honey_database'
+[22:06:17] [WARNING] mysql_connect: no password specified (D:\AmazingLibrary\Honey RolePlay\gamemodes\honey.pwn:102 -> C:\pawno\include\Pawn.CMD.inc:125 -> C:\pawno\include\sscanf2.inc:117)
+[00:54:42] [WARNING] mysql_connect: no password specified (D:\AmazingLibrary\Honey RolePlay\gamemodes\honey.pwn:102 -> C:\pawno\include\Pawn.CMD.inc:125 -> C:\pawno\include\sscanf2.inc:117)
+[23:37:14] [WARNING] mysql_connect: no password specified (D:\AmazingLibrary\Honey RolePlay\gamemodes\honey.pwn:102 -> C:\pawno\include\Pawn.CMD.inc:125 -> C:\pawno\include\sscanf2.inc:117)
+[22:52:57] [WARNING] mysql_connect: no password specified
+[22:53:02] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[22:53:06] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[22:53:10] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[22:53:14] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[22:57:22] [WARNING] mysql_connect: no password specified
+[22:57:27] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[22:57:31] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[22:57:35] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[22:57:39] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[22:59:22] [WARNING] mysql_connect: no password specified
+[22:59:26] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[22:59:30] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[22:59:34] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[22:59:38] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #2002 'Can't connect to MySQL server on 'localhost' (10061)'
+[23:45:53] [WARNING] mysql_connect: no password specified
+[23:52:02] [WARNING] mysql_connect: no password specified
+[23:53:48] [WARNING] mysql_connect: no password specified
+[23:54:35] [WARNING] mysql_connect: no password specified
+[23:56:45] [WARNING] mysql_connect: no password specified
+[23:59:25] [WARNING] mysql_connect: no password specified
+[00:06:05] [WARNING] mysql_connect: no password specified
+[00:14:15] [WARNING] mysql_connect: no password specified
+[00:40:47] [WARNING] mysql_connect: no password specified
+[00:41:14] [ERROR] mysql_format: no value for specifier '%s' passed
+[00:41:14] [ERROR] error #1065 while executing query "": Query was empty
+[00:46:42] [WARNING] mysql_connect: no password specified
+[00:47:09] [ERROR] mysql_format: no value for specifier '%s' passed
+[00:47:09] [ERROR] error #1065 while executing query "": Query was empty
+[00:49:04] [WARNING] mysql_connect: no password specified
+[00:49:34] [ERROR] mysql_format: no value for specifier '%s' passed
+[00:49:34] [ERROR] error #1065 while executing query "": Query was empty
+[00:54:12] [WARNING] mysql_connect: no password specified
+[01:09:50] [WARNING] mysql_connect: no password specified
+[01:10:21] [ERROR] error #1064 while executing query "INSERT INTO `users`(`u_id`, `u_name`, `u_password`, `u_email`, `u_age`, `u_gender`, `u_skin`, `u_regdata) VALUES ('0', 'User_User', 'asdasdasd', 'asdsadasd@mail.ru', '20', '1', '22', '')": You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+[01:13:07] [WARNING] mysql_connect: no password specified
+[01:13:28] [ERROR] error #1064 while executing query "INSERT INTO `users`(`u_id`, `u_name`, `u_password`, `u_email`, `u_age`, `u_gender`, `u_skin`, `u_regdata) VALUES ('0', 'User_User', '123123123', 'asdasdasd@mail.ru', '20', '1', '28', '')": You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+[01:17:22] [WARNING] mysql_connect: no password specified
+[01:17:55] [ERROR] error #1064 while executing query "INSERT INTO `users`(`u_id`, `u_name`, `u_password`, `u_email`, `u_age`, `u_gender`, `u_skin`, `u_regdata) VALUES ('0', 'User_User', 'asdasdasd@mil', 'adasdasd@mail.ru', '22', '1', '22', '')": You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+[01:33:53] [WARNING] mysql_connect: no password specified
+[01:37:25] [WARNING] mysql_connect: no password specified
+[01:38:15] [ERROR] error #1064 while executing query "INSERT INTO `users`(`u_id`, `u_name`, `u_password`, `u_email`, `u_age`, `u_gender`, `u_skin`, `u_regdata) VALUES ('0', 'User_User', '123qwerty', 'fc-rp@example.com', '20', '1', '28', '')": You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+[01:50:35] [WARNING] mysql_connect: no password specified
+[02:02:24] [WARNING] mysql_connect: no password specified
+[02:04:27] [WARNING] mysql_connect: no password specified
+[02:06:08] [ERROR] error #1064 while executing query "INSERT INTO `users`(`u_id`, `u_name`, `u_password`, `u_email`, `u_age`, `u_gender`, `u_skin`, `u_regdata) VALUES ('0', 'User_User', '123qwerty', 'fc-rp@example.com', '20', '1', '19', '')": You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+[02:09:40] [WARNING] mysql_connect: no password specified
+[02:17:59] [WARNING] mysql_connect: no password specified
+[02:23:29] [WARNING] mysql_connect: no password specified
+[02:29:36] [WARNING] mysql_connect: no password specified
+[02:29:38] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1049 'Unknown database 'avenuerp''
+[02:29:40] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1049 'Unknown database 'avenuerp''
+[02:29:42] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1049 'Unknown database 'avenuerp''
+[02:29:44] [ERROR] CConnection::CConnection - establishing connection to MySQL database failed: #1049 'Unknown database 'avenuerp''
+[02:32:35] [WARNING] mysql_connect: no password specified
+[02:36:47] [WARNING] mysql_connect: no password specified
+[02:38:12] [WARNING] mysql_connect: no password specified
+[02:42:53] [WARNING] mysql_connect: no password specified
+[02:43:52] [WARNING] mysql_connect: no password specified
+[02:44:34] [WARNING] mysql_connect: no password specified
+[03:12:25] [WARNING] mysql_connect: no password specified
+[03:15:08] [WARNING] mysql_connect: no password specified

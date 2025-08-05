@@ -1,0 +1,111 @@
+//ТУТОР НА МУЗЫКУ BY SEMTAB 
+
+// РЕГИСТРАЦИЯ
+
+//в OnPlayerConnect добовляем
+public OnPlayerConnect(playerid)
+{
+    // Воспроизведение музыки при заходе, замените ссылку на свою!
+    PlayAudioStreamForPlayer(playerid, "https://cdn.discordapp.com/attachments/1122334455/1234567890/login_music.mp3");
+    return 1;
+}
+//Получается, что при входе на сервер музыка включается. 
+//Дальше идем в конец регистрации, у меня это d_emaill, туда прописываем
+  StopAudioStreamForPlayer(playerid);
+//у меня это выглядит так:
+        case d_email:
+        {
+			if(response)
+			{
+				if(!strlen(inputtext)) return SPD(playerid, d_email, DSI, ""c_red"Регистрация | E-mail",
+				""c_white"Введите действующий адрес "c_red"электронной почты"c_white"\n\
+				Если Ваш аккаунт будет "c_red"взломан "c_white"или"c_red" утерян\n\
+				"c_white"Мы отправим на неё пароль для восстановления", "Далее", "Отмена");
+				if(strlen(inputtext) < 6 || strlen(inputtext) > 32)
+				{
+				    SPD(playerid, d_email, DSI, ""c_red"Регистрация | E-mail",
+					""c_white"Введите действующий адрес "c_red"электронной почты"c_white"\n\
+					Если Ваш аккаунт будет "c_red"взломан "c_white"или"c_red" утерян\n\
+					"c_white"Мы отправим на неё пароль для восстановления", "Далее", "Отмена");
+                   	return SCM(playerid, color_red, "Такой e-mail не существует! Пример: test@gmail.com");
+				}
+				
+				for(new i = strlen(inputtext); i != 0; --i)
+             	switch(inputtext[i])
+                {
+                    case 'А'..'Я', 'а'..'я', ' ':
+                    {
+					    SPD(playerid, d_email, DSI, ""c_red"Регистрация | E-mail",
+						""c_white"Введите действующий адрес "c_red"электронной почты"c_white"\n\
+						Если Ваш аккаунт будет "c_red"взломан "c_white"или"c_red" утерян\n\
+						"c_white"Мы отправим на неё пароль для восстановления", "Далее", "Отмена");
+	                   	return SCM(playerid, color_red, "Смените раскладку клавиатуры!");
+                    }
+                }
+                if(strfind(inputtext, "@", true) == -1 || strfind(inputtext, ".", true) == -1)
+                {
+				    SPD(playerid, d_email, DSI, ""c_red"Регистрация | E-mail",
+					""c_white"Введите действующий адрес "c_red"электронной почты"c_white"\n\
+					Если Ваш аккаунт будет "c_red"взломан "c_white"или"c_red" утерян\n\
+					"c_white"Мы отправим на неё пароль для восстановления", "Далее", "Отмена");
+                   	return SCM(playerid, color_red, "Такой e-mail не существует! Пример: test@gmail.com");
+                }
+				StopAudioStreamForPlayer(playerid);
+                strmid(player_info[playerid][email], inputtext, 0, strlen(inputtext), 32);
+			SPD(playerid, d_gender, DSM, ""c_lightred"Регистрация | Пол", ""c_white"Выберите пол Вашего персонажа", "Мужской", "Женский");
+			}
+			
+			else return Kick(playerid);
+        }
+//В самый конец перед выбором пола я отключаю музыку.
+//С регистрацией проконченно. 
+
+
+//АВТОРИЗАЦИЯ
+//музыка также включается в OnPlayerConnect
+// Пишем авторизацию, она выглядит у меня так
+case d_auth:
+{
+	if(response)
+	{
+		if(!strlen(inputtext)) return DialogAuth(playerid);
+		if(strlen(inputtext) < 8 || strlen(inputtext) > 20)
+		{
+			DialogAuth(playerid);
+			return SCM(playerid, color_red, "Длина пароля от 8 до 20 символов!");
+		}
+		for(new i = strlen(inputtext); i != 0; --i)
+		switch(inputtext[i])
+		{
+			case 'А'..'Я', 'а'..'я', ' ':
+			{
+				DialogAuth(playerid);
+				return SCM(playerid, color_red, "Смените раскладку клавиатуры!");
+			}
+		}
+
+		// Пароль совпал — авторизация успешна
+		if(strcmp(player_info[playerid][password], inputtext, false, 20) == 0)
+		{
+			//  Останавливаем музыку при успешной авторизации
+			StopAudioStreamForPlayer(playerid);
+
+			static const fmt_query2[] = "SELECT * FROM `users` WHERE `name` = '%s' AND `password` = '%s'";
+			new query[sizeof(fmt_query2)+(-2+MAX_PLAYER_NAME)+(-2+20)];
+			mysql_format(db_fc, query, sizeof(query), fmt_query2, player_info[playerid][name], player_info[playerid][password]);
+			mysql_tquery(db_fc, query, "LoadAccount", "i", playerid);
+			return 1;
+		}
+		else
+		{
+			if(wrongpass[playerid] < 2) return Kick(playerid);
+			new str[64];
+			wrongpass[playerid]--;
+			format(str, sizeof(str), "Неправильный пароль! У Вас осталось %i попыток!", wrongpass[playerid]);
+			SCM(playerid, color_red, str);
+			DialogAuth(playerid);
+		}
+	}
+}
+//добовляем StopAudioStreamForPlayer(playerid); при успешной авторизации. 
+//удачного вам дня, тутор by semtab
