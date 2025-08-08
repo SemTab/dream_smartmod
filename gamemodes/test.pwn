@@ -33,13 +33,13 @@ main(){}
 
 #pragma tabsize 0
 
-// * Конфигурация базы данных
+// Тут вводи данные от базы данных
 #define         MySQL_host          	"127.0.0.1"
 #define         MySQL_user          	"gs279471"
 #define         MySQL_pass          	"da12345"
 #define         MySQL_db            	"gs279471"
 
-// * Конфигурация сервера
+// Здесь можешь заменить название сервера и тому подобные настройки
 #define         project     			"TEST SEMTAB"
 #define         game_mode           	"Dream Mobile"
 #define         name_server             "Dream Mobile"
@@ -64,7 +64,7 @@ main(){}
 #define color_lightgreen 0x00FF00FF
 
 
-// * Цвета для диалога
+// Цвета для диалога
 #define         c_test              	"{bb7dff}"
 #define         c_white             	"{ffffff}"
 #define         c_red               	"{d54a4a}"
@@ -79,11 +79,11 @@ main(){}
 #define         c_lightyellow           "{e1daa3}"
 #define         c_lightred          	"{ff6347}"
 
-// * Функции чата
+// Функции чата
 #define         SCM                     SendClientMessage
 #define         SCMA                    SendClientMessageToAll
 
-// * Функции диалога
+// Функции диалога
 #define         SPD                     ShowPlayerDialog
 #define         DSI                     DIALOG_STYLE_INPUT
 #define         DSM                     DIALOG_STYLE_MSGBOX
@@ -106,12 +106,7 @@ main(){}
 #define DIALOG_GPS_RABOT   5003
 
 
-#define DIALOG_TUTORIAL_1 1000
-#define DIALOG_TUTORIAL_2 1001
-#define DIALOG_TUTORIAL_3 1002
-// квесты ТЕСТ
-#define DIALOG_TUTORIAL 1000
-#define DIALOG_TUTORIAL_ADV 1001
+
 
 //номера
 #define MAX_VEHICLE_PLATES 1000
@@ -147,7 +142,7 @@ enum p_data
 	admin_login,
 	Float:health,
 	Float:armour,
-    tutorial_completed,
+    
 	minutes,
 	exp,
 	medkits,
@@ -187,14 +182,10 @@ new Iterator:Admins_ITER<MAX_ADMINS>;
 new report_check[MAX_PLAYERS];
 new scooterPickupYuzhniy;
 new scooterPickupArzamas;
-new g_bIsInDialog[MAX_PLAYERS];
-new Float:spawnPosYuzhniy[3] = { -169.821289, 2611.368652, 18.330675 };
-new Float:spawnPosArzamas[3] = { -384.477416, -1805.003662, 18.167287 };
-new g_PlayerLastPickup[MAX_PLAYERS];
-new npc_yuzhniy;
-new npc_arzamas;
-new Text3D:npcLabelYuzhniy, Text3D:npcLabelArzamas;
-new npcActorYuzhniy, npcActorArzamas;
+
+
+
+
 
 
 
@@ -216,6 +207,9 @@ forward LoginTimer();
 forward StopAnimationChat(playerid);
 forward UpdateSecond();
 forward UpdateMinute();
+
+
+
 
 
 
@@ -268,19 +262,7 @@ public OnGameModeInit()
     scooterPickupYuzhniy = CreatePickup(19134, 1, -407.276458, -1791.422119, 18.323537, 0);
     scooterPickupArzamas = CreatePickup(19134, 1, -163.864974, 2610.933349, 18.330675, 0);
 
-    npcActorYuzhniy = CreateActor(102, -143.084060, 2610.407714, 18.330675, 51.072490); // Скин 217 - учёный
-    SetActorVirtualWorld(npcActorYuzhniy, 0);
-    SetActorInvulnerable(npcActorYuzhniy, true);
 
-    npcLabelYuzhniy = Create3DTextLabel("Dev_Semtab\nНажмите ALT", color_main,
-        -143.084060, 2610.407714, 18.330675 + 0.5, 10.0, 0);
-
-    npcActorArzamas = CreateActor(102, -407.456542, -1788.181640, 18.323537, 44.491603);
-    SetActorVirtualWorld(npcActorArzamas, 0);
-    SetActorInvulnerable(npcActorArzamas, true);
-
-    npcLabelArzamas = Create3DTextLabel("Dev_Semtab\nНажмите ALT", color_main,
-        -407.456542, -1788.181640, 18.323537 + 0.5, 10.0, 0);
 
         //таймер на вывод сообщений каждые 15 минут
     SetTimer("AnnounceUpdates", 900000, true);
@@ -392,7 +374,7 @@ public OnPlayerSpawn(playerid)
 
 public OnPlayerDeath(playerid, killerid, reason)
 {
-	SCM(playerid, color_green, "ВЫ УМЕРЛИ! СИСТЕМА БОЛЬКИ НЕ СОЗДАНА");
+	SCM(playerid, color_green, "Вы умерли, отправляю вас на спавн...");
 	return 1;
 }
 
@@ -550,7 +532,7 @@ public OnPlayerPickUpPickup(playerid, pickupid)
     {
         if (GetPlayerMoney(playerid) < 50)
         {
-            SendClientMessage(playerid, 0xFF0000FF, "Недостаточно средств! Нужно 50 рублей.");
+            SendClientMessage(playerid, 0xFF0000FF, "Недостаточно средств! Для аренды скутера требуется 50 рублей.");
             return 1;
         }
 
@@ -569,7 +551,7 @@ public OnPlayerPickUpPickup(playerid, pickupid)
         new vehicleid = CreateVehicle(SCOOTER_MODEL_ID, x, y, z, a, -1, -1, 600);
         PutPlayerInVehicle(playerid, vehicleid, 0);
 
-        SendClientMessage(playerid, 0x00FF00FF, "Вы купили скутер за 50 рублей!");
+        SendClientMessage(playerid, 0x00FF00FF, "Вы арендовали скутер за 50 рублей! Удачного пути!");
     }
     return 1;
 }
@@ -620,57 +602,16 @@ public OnPlayerKeyStateChange(playerid, newkeys, oldkeys)
     if((newkeys & KEY_WALK))
     {
 
-        if(g_bIsInDialog[playerid]) return 1;
+
 
         new Float:x, Float:y, Float:z;
         GetPlayerPos(playerid, x, y, z);
 
 
-        if(IsPlayerInRangeOfPoint(playerid, 2.0, -143.084060, 2610.407714, 18.330675))
-        {
-
-            if(player_info[playerid][tutorial_completed])
-            {
-
-                SPD(playerid, DIALOG_TUTORIAL_ADV, DSM,
-                    "Dev_Semtab - Помощь",
-                    "Вы уже прошли обучение!\nХотите получить дополнительную информацию о сервере?",
-                    "Да", "Нет");
-            }
-            else
-            {
-
-                ShowTutorialDialog(playerid, 1);
-            }
-            g_bIsInDialog[playerid] = 1;
-            return 1;
-        }
 
 
-        if(IsPlayerInRangeOfPoint(playerid, 2.0, -407.456542, -1788.181640, 18.323537))
-        {
-
-            if(player_info[playerid][tutorial_completed])
-            {
-                SPD(playerid, DIALOG_TUTORIAL_ADV, DSM,
-                    "Dev_Semtab - Помощь",
-                    "Вы уже прошли обучение!\nХотите получить дополнительную информацию о сервере?",
-                    "Да", "Нет");
-            }
-            else
-            {
-                ShowTutorialDialog(playerid, 1);
-            }
-            g_bIsInDialog[playerid] = 1;
-            return 1;
-        }
 
 
-        if(IsPlayerInRangeOfPoint(playerid, 2.0, -169.821289, 2611.368652, 18.330675) ||
-           IsPlayerInRangeOfPoint(playerid, 2.0, -384.477416, -1805.003662, 18.167287))
-        {
-            return 1;
-        }
     }
 
 
@@ -699,43 +640,7 @@ public OnPlayerKeyStateChange(playerid, newkeys, oldkeys)
     return 1;
 }
 
-stock ShowTutorialDialog(playerid, step)
-{
-    switch(step)
-    {
-        case 1:
-        {
-            SPD(playerid, DIALOG_TUTORIAL, DIALOG_STYLE_MSGBOX,
-                "Dev_Semtab - Обучение",
-                "Привет! Я один из разработчиков этого сервера.\nХочешь пройти краткое обучение и получить подарок?",
-                "Да", "Нет");
-        }
-        case 2:
-        {
-            SPD(playerid, DIALOG_TUTORIAL + 1, DIALOG_STYLE_MSGBOX,
-                "Dev_Semtab - Основы",
-                "Это обучающий NPC. Вот основные моменты:\n\n1. Используйте /menu для доступа к функциям\n2. /gps поможет найти важные места\n3. ALT - взаимодействие с объектами",
-                "Далее", "Пропустить");
-        }
-        case 3:
-        {
-            SPD(playerid, DIALOG_TUTORIAL + 2, DIALOG_STYLE_MSGBOX,
-                "Dev_Semtab - Подарок",
-                "Поздравляю с завершением обучения!\nВот твой подарок: 1000$ и 50 опыта!",
-                "Спасибо", "");
 
-            GivePlayerCash(playerid, 1000);
-            GivePlayerExp(playerid, 50);
-            player_info[playerid][tutorial_completed] = 1;
-
-            static const fmt_query[] = "UPDATE `users` SET `tutorial_completed` = 1 WHERE `id` = '%i'";
-            new query[128];
-            mysql_format(db_fc, query, sizeof(query), fmt_query, player_info[playerid][id]);
-            mysql_query(db_fc, query, false);
-        }
-    }
-    return 1;
-}
 
 public OnRconLoginAttempt(ip[], password[], success)
 {
@@ -1095,20 +1000,7 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
                 }
 			}
 		}
-		case 9999: // Диалог обучения
-        {
-            if(response)
-            {
-                SendClientMessage(playerid, color_white, "Dev_Semtab: Отлично! Давай начнем обучение...");
-                GivePlayerCash(playerid, 1000);
-                SendClientMessage(playerid, color_green, "Dev_Semtab: Вот твой подарок за прохождение обучения - 1000$!");
-            }
-            else
-            {
-                SendClientMessage(playerid, color_white, "Dev_Semtab: Хорошо, когда будешь готов - возвращайся!");
-            }
-            return 1;
-        }
+
 		case d_report:
 		{
 			if(response)
@@ -1275,7 +1167,7 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
             {
                 case 0: // Телефон
                 {
-                    SendClientMessage(playerid, 0xFFFFFFFF, "Вы достаете телефон...");
+                    SendClientMessage(playerid, 0xFFFFFFFF, "Функционал для телефона еще не написан...");
                     // Здесь можно добавить функционал телефона
                 }
                 
@@ -1387,7 +1279,7 @@ public LoadAccount(playerid)
 		cache_get_value_name_int(0, "minutes", player_info[playerid][minutes]);
 		cache_get_value_name_int(0, "exp", player_info[playerid][exp]);
         cache_get_value_name_int(0, "admin_rating", player_info[playerid][admin_rating]);
-        cache_get_value_name_int(0, "tutorial_completed", player_info[playerid][tutorial_completed]);
+
 
 		if(player_info[playerid][admin] >= 1) Iter_Add(Admins_ITER, playerid);
 
@@ -1781,7 +1673,7 @@ stock GivePlayerExp(playerid, exp)
     {
         player_info[playerid][exp]-=needexp;
         player_info[playerid][level]++;
-        SCM(playerid, color_white, "Поздравляем! Ваш "c_lightyellow"уровень"c_white" повышен!");
+        SCM(playerid, color_white, "Поздравляем! Ваш "c_lightyellow"уровень"c_white" повышен! Удачной игры на "project"!");
         GivePlayerLevel(playerid, player_info[playerid][level]);
     }
     static const fmt_query[] = "UPDATE `users` SET `exp` = '%i' WHERE `id` = '%i'";
@@ -1866,7 +1758,7 @@ CMD:s(playerid, params[])
 {
     new str[128];
 	if(sscanf(params, "s[128]", params[0])) return SCM(playerid, color_white, "Введите команду: "c_lightyellow"/s [текст]");
-	format(str, sizeof (str), ""c_white"%s[%i] кричит: %s", player_info[playerid][name], playerid, params[0]);
+	format(str, sizeof (str), ""c_white"%s[%i] громко кричит: %s", player_info[playerid][name], playerid, params[0]);
 	SetPlayerChatBubble(playerid, params[0], color_white, 40.0, 5*1000);
 	ProxDetector(40.0, playerid, str, color_white, color_white, color_white, color_gray, color_gray);
 	if(GetPlayerState(playerid) == PLAYER_STATE_ONFOOT) ApplyAnimation(playerid, "ON_LOOKERS", "shout_01",1000.0,0,0,0,0,0,1);
@@ -1930,7 +1822,7 @@ CMD:admins(playerid)
 CMD:report(playerid)
 {
 	SPD(playerid, d_report, DSI, ""c_lightred"Связь с администрацией",
-	""c_white"Опишите свой "c_lightyellow"вопрос"c_white" или "c_lightred"жалобу"c_white" администрации:\n\n\
+	""c_white"Опишите свой "c_lightyellow"вопрос"c_white" или "c_lightred"жалобу"c_white" для администрации:\n\n\
 	"c_gray"При подаче жалобы на игрока, укажите его ID", "Далее", "Закрыть");
 	return 1;
 }
