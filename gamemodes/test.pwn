@@ -1299,7 +1299,7 @@ public LoginTimer()
 	{
 	    if (IsPlayerConnected(i) && player_kick_time{i} != 0 && --player_kick_time{i} == 0)
 		{
-	        SPD(i, d_kickmessage, DSM, ""c_lightred"Время на авторизацию", ""c_white"Вы были "c_red"отключены"c_white" от сервера! Время на авторизацию "c_red"истекло!"c_white"\nДля выхода из игры Введите команду "c_lightred"/(q)uit.", "Выйти", "");
+	        SPD(i, d_kickmessage, DSM, ""c_lightred"Время на авторизацию", ""c_white"Вы были "c_red"отключены"c_white" от сервера! Время на авторизацию "c_red"истекло!"c_white"\nМожете выходить из игры "c_lightred".", "Выйти", "");
 	        Kick(i);
 	    }
 	}
