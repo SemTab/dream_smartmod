@@ -2504,3 +2504,4 @@ CMD:lolhp(playerid, params[])
     }
     return 1;
 }
+//by semtab
