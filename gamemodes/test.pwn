@@ -182,10 +182,7 @@ new Iterator:Admins_ITER<MAX_ADMINS>;
 new report_check[MAX_PLAYERS];
 new scooterPickupYuzhniy;
 new scooterPickupArzamas;
-
-
-
-
+new Text3D:infoLabelYuzhniy, Text3D:infoLabelArzamas;
 
 
 
@@ -262,8 +259,11 @@ public OnGameModeInit()
     scooterPickupYuzhniy = CreatePickup(19134, 1, -407.276458, -1791.422119, 18.323537, 0);
     scooterPickupArzamas = CreatePickup(19134, 1, -163.864974, 2610.933349, 18.330675, 0);
 
-
-
+    infoLabelYuzhniy = Create3DTextLabel("Привет! Это тест мод для карты - \"Smart Rp\", мод был написан semtab`ом.\nТы можешь изменить или же удалить этот текст в pwn файле:)", color_main,
+        -407.276458, -1791.422119, 18.323537 + 1.0, 15.0, 0);
+    
+    infoLabelArzamas = Create3DTextLabel("Привет! Это тест мод для карты - \"Smart Rp\", мод был написан semtab`ом.\nТы можешь изменить или же удалить этот текст в pwn файле:)", color_main,
+        -163.864974, 2610.933349, 18.330675 + 1.0, 15.0, 0);
         //таймер на вывод сообщений каждые 15 минут
     SetTimer("AnnounceUpdates", 900000, true);
     
@@ -284,6 +284,10 @@ public OnGameModeExit()
             Delete3DTextLabel(VehiclePlate[i]);
         }
     }
+    
+    Delete3DTextLabel(infoLabelYuzhniy);
+    Delete3DTextLabel(infoLabelArzamas);
+    
     return 1;
 }
 
